@@ -1,9 +1,10 @@
-declare -a table_names=("wake-book-dev-User" "wake-book-dev-Booking" "wake-book-prod-User" "wake-book-prod-Booking")
+# declare -a table_names=("wake-book-dev-User" "wake-book-dev-Booking" "wake-book-prod-User" "wake-book-prod-Booking")
+declare -a table_names=("wake-book-dev-User")
 
 source_profile="swt-simon-verhoeven"
 source_bucket_name="wake-book-db-backup"
 
-dest_profile="waketools-root"
+dest_profile="waketools-simon-verhoeven"
 dest_bucket_name="wake-book-db-restore"
 
 backup_path="backup"
